@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+.landing-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #17153B;
+    color: white;
+    gap: 10px;
+}
+.judul img{
+    background: none;
+}
+.btn{
+    position: fixed;
+    bottom: 40px;
+    /* background-color: whitesmoke ; */
+    color:white;
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    border: 2px solid white;
+    transition: 0.2s;
+}
+.btn a{
+    color: white;
+}
