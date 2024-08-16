@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: #17153b;
+  color: white;
+  min-height: 120vh;
+}
+.nav-bar {
+  /* position: fixed; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 7%;
+}
+.icon,
+.icon a {
+  font-size: 20px;
+  color: white;
+  gap: 10px;
+}
+.searching {
+  margin: 1rem;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  background-color: #2e236c;
+  height: 40px;
+  border-radius: 5px;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+input {
+  border: none;
+  background: none;
+}
+.sepatu {
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+}
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  /* gap: 50px; */
+  width: 100%;
+
+}
+.menu {
+  display: flex;
+  align-items: center;
+  /* gap: 10px; */
+  background-color: #2e236c;
+  height: 150px;
+  /* width: 360px; */
+  width: 100%;
+    margin: 10px;
+  border-radius: 10px;
+}
+.menu-img {
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+img {
+  width: 110px;
+  height: 110px;
+  border-radius: 10px;
+}
+.keterangan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  height: 35px;
+  width: 90px;
+  /* padding: 10px; */
+  border-radius: 5px;
+}
+h5{
+    font-weight: 700;
+    color: black;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #17153B;
+}
+.box-icon {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-icon a{
+    color: white;
+}
