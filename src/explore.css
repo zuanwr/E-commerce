@@ -51,5 +51,58 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 15px;
+    font-size: 20px;
   } 
+.trending{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    margin:  0 1rem ;
+
+}
+.section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.trending-img{
+    /* width: 150px;
+    height:100px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin: 10px  10px;
+}
+.trending-img img{
+    width: 100%;
+    /* height: 100px; */
+    border-radius: 15px;
+}
+.keterangan{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.keterangan p {
+    font-weight: 100;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #17153B;
+}
+.box-icon {
+    padding: 20px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-icon a{
+    color: white;
+}
